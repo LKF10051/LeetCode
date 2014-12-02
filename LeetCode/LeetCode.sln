@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pass", "pass", "{2E862B37-2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "merge-two-sorted-lists", "merge-two-sorted-lists\merge-two-sorted-lists.vcxproj", "{B9EBD473-C527-44CC-936A-C2EE342181AF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "passed", "passed\passed.vcxproj", "{541E24CA-D43E-4D1D-A7AA-C12D5509C613}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,8 +23,16 @@ Global
 		{B9EBD473-C527-44CC-936A-C2EE342181AF}.Debug|Win32.Build.0 = Debug|Win32
 		{B9EBD473-C527-44CC-936A-C2EE342181AF}.Release|Win32.ActiveCfg = Release|Win32
 		{B9EBD473-C527-44CC-936A-C2EE342181AF}.Release|Win32.Build.0 = Release|Win32
+		{541E24CA-D43E-4D1D-A7AA-C12D5509C613}.Debug|Win32.ActiveCfg = Debug|Win32
+		{541E24CA-D43E-4D1D-A7AA-C12D5509C613}.Debug|Win32.Build.0 = Debug|Win32
+		{541E24CA-D43E-4D1D-A7AA-C12D5509C613}.Release|Win32.ActiveCfg = Release|Win32
+		{541E24CA-D43E-4D1D-A7AA-C12D5509C613}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9EBD473-C527-44CC-936A-C2EE342181AF} = {2E862B37-2EA1-4F05-977B-43A6400C385D}
+		{541E24CA-D43E-4D1D-A7AA-C12D5509C613} = {2E862B37-2EA1-4F05-977B-43A6400C385D}
 	EndGlobalSection
 EndGlobal
