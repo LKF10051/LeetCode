@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "onvert-sorted-array-to-bina
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "remove-element", "remove-element\remove-element.vcxproj", "{8476A5B1-8099-452D-B899-3F0C624B6378}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap-nodes-in-pairs", "swap-nodes-in-pairs\swap-nodes-in-pairs.vcxproj", "{AE57A2F6-773B-4BDC-8D3D-EDF7797BB558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{8476A5B1-8099-452D-B899-3F0C624B6378}.Debug|Win32.Build.0 = Debug|Win32
 		{8476A5B1-8099-452D-B899-3F0C624B6378}.Release|Win32.ActiveCfg = Release|Win32
 		{8476A5B1-8099-452D-B899-3F0C624B6378}.Release|Win32.Build.0 = Release|Win32
+		{AE57A2F6-773B-4BDC-8D3D-EDF7797BB558}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE57A2F6-773B-4BDC-8D3D-EDF7797BB558}.Debug|Win32.Build.0 = Debug|Win32
+		{AE57A2F6-773B-4BDC-8D3D-EDF7797BB558}.Release|Win32.ActiveCfg = Release|Win32
+		{AE57A2F6-773B-4BDC-8D3D-EDF7797BB558}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
