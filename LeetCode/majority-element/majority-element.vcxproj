@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0AE5D9DA-C0D7-4249-B01E-1E3A721F8E00}</ProjectGuid>
+    <ProjectGuid>{0680F058-C0C1-4004-902F-1CB57D0EA91F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>balancedbinarytree</RootNamespace>
+    <RootNamespace>majorityelement</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -81,7 +81,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="balanced-binary-tree.cpp" />
+    <ClCompile Include="majority-element.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
