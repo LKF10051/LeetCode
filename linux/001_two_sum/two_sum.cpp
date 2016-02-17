@@ -4,5 +4,6 @@ int main()
 { 
    string aa;
    aa.push_back(aa);
+
    return 0;
 }
