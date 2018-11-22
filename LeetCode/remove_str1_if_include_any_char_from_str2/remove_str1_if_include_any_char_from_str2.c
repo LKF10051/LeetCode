@@ -7,7 +7,7 @@ char* remove(char* s1, const char* s2)
 	if (*s1 == '/0' || *s2 == '/0')
 	{ return s1; }
 
-	int hashTable[256] = { 0 };
+	int hashTable[256] = {0};
 	int index = 0;
 
 	// construct hash
